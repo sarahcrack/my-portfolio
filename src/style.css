@@ -59,3 +59,32 @@ h3 {
   background-color: var(--coral-color);
   color: var(--peach-color);
 }
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 10px;
+}
+
+p {
+  background: rgb(247, 207, 185, 0.7);
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.homepage {
+  color: var(--coral-color);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.email-link {
+  color: var(--coral-color);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 28px;
+}
