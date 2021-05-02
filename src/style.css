@@ -4,6 +4,12 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 h1 {
   font-size: 96px;
   text-align: center;
@@ -27,6 +33,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .navigation-links a {
@@ -60,12 +67,19 @@ h3 {
   color: var(--peach-color);
 }
 
+.git-hub-link {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  opacity: 0.8;
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 10px;
 }
 
-p {
+.about-paragraphs p {
   background: rgb(247, 207, 185, 0.7);
   padding: 20px;
   text-align: center;
