@@ -4,26 +4,29 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
 h1,
 h2,
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 h1 {
   font-size: 96px;
-  text-align: center;
   margin: 0;
 }
 
 h2 {
-  text-align: center;
   font-size: 48px;
   margin: 0;
 }
 
 h3 {
-  text-align: center;
   color: #686b73;
   font-size: 24px;
   margin: 0;
@@ -74,31 +77,41 @@ h3 {
   opacity: 0.8;
 }
 
+.homepage-link {
+  color: var(--coral-color);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.homepage-link:hover {
+  text-decoration: underline;
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 10px;
 }
-
 .about-paragraphs p {
+  margin: 10px;
   background: rgb(247, 207, 185, 0.7);
   padding: 20px;
+  border-radius: 4px;
   text-align: center;
   line-height: 1.5;
   font-size: 18px;
 }
 
-.homepage {
-  color: var(--coral-color);
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 20px;
-}
-
 .email-link {
   color: var(--coral-color);
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   text-decoration: none;
   font-size: 28px;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
