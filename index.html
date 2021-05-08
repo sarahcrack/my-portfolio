@@ -3,25 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h2>👋🏻 Hi, I'm</h2>
-    <h1>Sarah Crack</h1>
-    <h3>🇬🇧 Front-end developer in training, based in London</h3>
-    <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact Me</a>
-      <a href="about.html" class="about-link">About Me</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sarah Crack</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="homepage">
+      <h2>👋🏻 Hi, I'm</h2>
+      <h1>Sarah Crack</h1>
+      <h3>🇬🇧 Front-end developer in training, based in London</h3>
+      <div class="navigation-links mb-5">
+        <a href="about.html#contact" class="contact-link">Contact Me</a>
+        <a href="about.html" class="about-link">About Me</a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="images/salad-cream.png"
+              alt=""
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-6">
+            <h2 class="mb-3 text-start">Salad Cream</h2>
+            <p>gdsjhgdjshagdhsgahdjgsahdgsa</p>
+            <div class="mt-5">
+              <a
+                href="https://wonderful-montalcini-b87a49.netlify.app/"
+                class="primary-link"
+                target="_blank"
+                >Launch website</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="git-hub-link mt-5">
+        <a
+          href="https://github.com/sarahcrack/my-portfolio"
+          target="_blank"
+          id="open-source-link"
+          >Open-source code
+        </a>
+        , by Sarah Crack
+      </p>
     </div>
-    <p class="git-hub-link">
-      <a
-        href="https://github.com/sarahcrack/my-portfolio"
-        target="_blank"
-        id="open-source-link"
-        >Open-source code
-      </a>
-      , by Sarah Crack
-    </p>
   </body>
 </html>

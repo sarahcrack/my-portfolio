@@ -5,8 +5,8 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin-top: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1,
@@ -30,6 +30,12 @@ h3 {
   color: #686b73;
   font-size: 24px;
   margin: 0;
+}
+
+.homepage,
+.all-about-me-page {
+  margin: 60px auto;
+  max-width: 800px;
 }
 
 .navigation-links {
@@ -68,6 +74,16 @@ h3 {
 .about-link:hover {
   background-color: var(--coral-color);
   color: var(--peach-color);
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--coral-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .git-hub-link {
